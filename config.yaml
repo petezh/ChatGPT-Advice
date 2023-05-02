@@ -1,0 +1,126 @@
+# Metadata for MMLU
+- topic: clinical_knowledge
+  display: Clinical Knowledge
+  supercategory: stem
+  fam_topic: Biological Sciences
+  description: Spot diagnosis, joints, abdominal examination, ...
+- topic: conceptual_physics
+  display: Conceptual Physics
+  supercategory: stem
+  fam_topic: Physics
+  description: Electromagnetism, thermodynamics, special relativity, ...
+- topic: elementary_mathematics
+  display: Elementary Mathematics
+  supercategory: stem
+  fam_topic: Mathematics
+  description: Word problems, multiplication, remainders, rounding, ...
+- topic: formal_logic
+  display: Formal Logic
+  supercategory: stem
+  fam_topic: Mathematics
+  description: Propositions, predicate logic, first-order logic, ...
+- topic: global_facts
+  display: Global Facts
+  supercategory: social sciences
+  fam_topic: Trivia
+  description: Extreme poverty, literacy rates, life expectancy, ...
+- topic: high_school_biology
+  display: High School Biology
+  supercategory: stem
+  fam_topic: Biological Sciences
+  description: Cellular structure, molecular biology, ecology, ...
+- topic: high_school_chemistry
+  display: High School Chemistry
+  supercategory: stem
+  fam_topic: Biological Sciences
+  description: Analytical, organic, inorganic, physical, ...
+- topic: high_school_computer_science
+  display: High School Computer Science
+  supercategory: stem
+  fam_topic: Computer Science
+  description: Algorithms, systems, graphs, recursion, ...
+- topic: high_school_european_history
+  display: High School European History
+  supercategory: humanities
+  fam_topic: History
+  description: Renaissance, reformation, industrialization, ...
+- topic: high_school_geography
+  display: High School Geography
+  supercategory: social sciences
+  fam_topic: Trivia
+  description:  Population migration, rural land-use, urban processes, ...
+- topic: high_school_government_and_politics
+  display: High School Government and Politics
+  supercategory: social sciences
+  fam_topic: Economics
+  description:  Branches of government, civil liberties, political ideologies, ...
+- topic: high_school_macroeconomics
+  display: High School Macroeconomics
+  supercategory: social sciences
+  fam_topic: Economics
+  description: Economic indicators, national income, international trade, ...
+- topic: high_school_microeconomics
+  display: High School Microeconomics
+  supercategory: social sciences
+  fam_topic: Economics
+  description: Supply and demand, imperfect competition, market failure, ...
+- topic: high_school_physics
+  display: High School Physics
+  supercategory: stem
+  fam_topic: Physics
+  description: Kinematics, energy, torque, fluid pressure, ...
+- topic: high_school_psychology
+  display: High School Psychology
+  supercategory: social sciences
+  fam_topic: Biological Sciences
+  description: Behavior, personality, emotions, learning, ...
+- topic: high_school_statistics
+  display: High School Statistics
+  supercategory: stem
+  fam_topic: Mathematics
+  description: Random variables, sampling distributions, chi-square tests, ...
+- topic: high_school_us_history
+  display: High School U.S. History
+  supercategory: humanities
+  fam_topic: History
+  description: Civil War, the Great Depression, The Great Society, ...
+- topic: high_school_world_history
+  display: High School World History
+  supercategory: humanities
+  fam_topic: History
+  description: Ottoman empire, economic imperialism, World War I, ...
+- topic: human_aging
+  display: Human Aging
+  supercategory: stem
+  fam_topic: Biological Sciences
+  description: Senescence, dementia, longevity, personality changes, ...
+- topic: human_sexuality
+  display: Human Sexuality
+  supercategory: social sciences
+  fam_topic: Biological Sciences
+  description: Pregnancy, sexual differentiation, sexual orientation, ...
+- topic: miscellaneous
+  display: Miscellaneous Topics
+  supercategory: humanities
+  fam_topic: Trivia
+  description: Agriculture, Fermi estimation, pop culture, ...
+- topic: nutrition
+  display: Nutrition
+  supercategory: social sciences
+  fam_topic: Biological Sciences
+  description: Metabolism, water-soluble vitamins, diabetes, ...
+- topic: philosophy
+  display: Philosophy
+  supercategory: humanities
+  fam_topic: Literature
+  description: Skepticism, phronesis, skepticism, Singer’s Drowning Child, ..
+- topic: sociology
+  display: Sociology
+  supercategory: social sciences
+  fam_topic: Literature
+  description: Socialization, cities and community, inequality and wealth, ...
+- topic: us_foreign_policy
+  display: U.S. Foreign Policy
+  supercategory: social sciences
+  fam_topic: History
+  description: Soft power, Cold War foreign policy, isolationism, ...

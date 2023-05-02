@@ -1,0 +1,11 @@
+backoff
+matplotlib
+numpy
+openai
+pandas
+scikit-learn
+scipy
+seaborn
+statsmodels
+tqdm
+wordcloud

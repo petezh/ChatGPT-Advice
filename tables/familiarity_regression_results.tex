@@ -1,0 +1,34 @@
+\begin{table}
+\caption{}
+\label{}
+\begin{center}
+\begin{tabular}{llll}
+\hline
+                                                      & B        & B2       & B3        \\
+\hline
+Intercept                                             & 0.302*** & 0.311*** & 0.299***  \\
+                                                      & (0.045)  & (0.052)  & (0.048)   \\
+advisor[T.expert]                                     & -0.028   & -0.028   & -0.012    \\
+                                                      & (0.059)  & (0.066)  & (0.064)   \\
+advisor[T.expert]:give\_justification[T.yes]          & -0.021   & -0.024   & -0.025    \\
+                                                      & (0.079)  & (0.088)  & (0.080)   \\
+give\_justification[T.yes]                            & 0.056    & 0.060    & 0.058     \\
+                                                      & (0.058)  & (0.064)  & (0.058)   \\
+participant\_id Var                                   & 0.362*** & 0.479*** & 0.367***  \\
+                                                      & (0.055)  & (0.091)  & (0.056)   \\
+question\_id Var                                      & 0.040**  & 0.055*** & 0.026     \\
+                                                      & (0.018)  & (0.021)  & (0.017)   \\
+topic Var                                             &          & 0.051    & 0.014**   \\
+                                                      &          & (nan)    & (0.007)   \\
+topic\_familiarity[T.Neutral]                         & 0.026    & 0.020    & 0.028     \\
+                                                      & (0.018)  & (0.018)  & (0.026)   \\
+topic\_familiarity[T.Neutral]:advisor[T.expert]       &          &          & -0.010    \\
+                                                      &          &          & (0.035)   \\
+topic\_familiarity[T.Uncomfortable]                   & 0.061*** & 0.041*   & 0.069**   \\
+                                                      & (0.020)  & (0.021)  & (0.029)   \\
+topic\_familiarity[T.Uncomfortable]:advisor[T.expert] &          &          & -0.040    \\
+                                                      &          &          & (0.040)   \\
+\hline
+\end{tabular}
+\end{center}
+\end{table}

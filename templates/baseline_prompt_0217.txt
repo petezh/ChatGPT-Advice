@@ -1,0 +1,9 @@
+Multiple choice test
+
+Question: {question}
+
+Possible choices:
+{letter_choices}
+
+Answer:
+(

@@ -1,0 +1,10 @@
+Multiple choice test
+{examples}
+
+Question: {question}
+
+Possible choices:
+{letter_choices}
+
+Answer:
+(

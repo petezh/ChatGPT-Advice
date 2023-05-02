@@ -1,0 +1,29 @@
+question,choice_A,choice_B,choice_C,choice_D,correct_answer,topic,split,answer,logprobs,justification
+In what situation are closed pouches applied?,The patient has a semi-formed or liquid output.,The patient has a colostomy.,In the immediate post-operative period.,The patient has a urostomy.,B,clinical_knowledge,test,A,"[<OpenAIObject at 0x7fd5099772c0> JSON: {
+  "" A"": -12.457809,
+  ""A"": -4.721163e-06,
+  ""B"": -16.21598,
+  ""D"": -15.26319,
+  ""a"": -14.64151
+}]","Closed pouches are applied when the patient has a semi-formed or liquid output, such as stool or urine. They are not typically used for colostomies or urostomies, which require an open pouch. Closed pouches are also not typically used in the immediate post-operative period, as the patient may need to be monitored more closely."
+Which of the following is true with regards to the anatomy involved in the rectal examination?,The sacrum is palpated anteriorly,The pubic bone is palpated anteriorly in both sexes,In the male the testes can be appreciated anteriorly,The cervix can sometimes be felt anteriorly in the female,D,clinical_knowledge,val,B,"[<OpenAIObject at 0x7fd4e8092770> JSON: {
+  "" B"": -10.202514,
+  ""A"": -12.186146,
+  ""B"": -8.5905114e-05,
+  ""C"": -11.421066,
+  ""D"": -10.352911
+}]","The rectal examination is a physical examination of the rectum and anus. During the examination, the examiner palpates the anterior wall of the rectum to assess for any abnormalities. The pubic bone is palpated anteriorly in both sexes, while the sacrum is palpated posteriorly. In the male, the prostate can be palpated anteriorly, while in the female, the cervix can sometimes be felt anteriorly. The testes cannot be appreciated anteriorly."
+Which of the following can act as an intracellular buffer to limit pH changes when the rate of glycolysis is high?,Glutamine,Glucose,Carnosine,Amylase,C,clinical_knowledge,test,C,"[<OpenAIObject at 0x7fd4e8092ef0> JSON: {
+  "" C"": -12.086857,
+  ""A"": -10.711629,
+  ""B"": -16.082817,
+  ""C"": -2.9159892e-05,
+  ""c"": -13.634152
+}]","Carnosine is an intracellular buffer that can help to limit pH changes when the rate of glycolysis is high. Glutamine, glucose, and amylase are not effective intracellular buffers."
+Oxygen is used:,in glycolysis.,in the conversion of fatty acids to acetyl CoA.,in the tricarboxylic acid cycle (Krebs' cycle).,in glycogenolysis.,B,clinical_knowledge,test,C,"[<OpenAIObject at 0x7fd4e8092630> JSON: {
+  "" C"": -10.942978,
+  ""A"": -9.590188,
+  ""B"": -12.139627,
+  ""C"": -9.377476e-05,
+  ""c"": -13.012906
+}]","Oxygen is used in the tricarboxylic acid cycle (Krebs' cycle) to oxidize the acetyl CoA produced from the breakdown of carbohydrates, fats, and proteins. It is not used in glycolysis, the conversion of fatty acids to acetyl CoA, or glycogenolysis."
