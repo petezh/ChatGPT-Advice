@@ -3,7 +3,7 @@ Taking Advice from ChatGPT
 
 Author: Peter Zhang
 
-[Paper link](https://docs.google.com/document/d/1PgqgyG-xCh142TSlgiaKt_rkskE3uhRdl6ueAeXurRk/edit#)
+[Paper link](https://drive.google.com/file/d/1bgKjRGYSnsE9tNMsUcCaZZVcRFzk49XO/view?usp=share_link)
 
 This study treats GPT models as an advisor in a judge-advisor system. We prompt InstructGPT using CoT on the [MMLU](https://arxiv.org/abs/2009.03300) benchmark and treat model output as "advice." In our lab study, 118 participants answer 2,828 questions and recieve a chance to update their answer from the advice. We analyze factors affecting weight on advice and participant confidence in advice answers. This repository reproduces the model outputs, tables, and figures in the paper.
 
