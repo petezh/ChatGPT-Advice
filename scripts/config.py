@@ -1,3 +1,7 @@
+"""
+Configuration file for the project.
+"""
+
 import yaml
 
 config = yaml.load(open('config.yaml'), Loader=yaml.FullLoader)
