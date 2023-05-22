@@ -229,6 +229,7 @@ def feature_engineer(question_df: pd.DataFrame) -> pd.DataFrame:
 
     question_df = add_weight_on_advice(question_df)
     question_df = add_topics(question_df)
+    question_df[USAGE_COLS] = question_df[USAGE_COLS].astype(int)
     question_df["usage_level"] = question_df[USAGE_COLS].sum(axis=1)
     question_df["question_group"] = pd.cut(question_df["question_num"], bins=range(0, 41, 5))
     question_df["question_id"] = question_df.apply(hash_question, axis=1)
@@ -261,6 +262,7 @@ def get_topic_familiarity(row: pd.Series) -> str:
     """Gets the familiarity level of the participant for the familiarity topic category."""
     
     col = topic2col[row["fam_topic"]]
+
     return row[col]
 
 def add_topics(question_df: pd.DataFrame) -> pd.DataFrame():
@@ -270,6 +272,11 @@ def add_topics(question_df: pd.DataFrame) -> pd.DataFrame():
 
     question_df['topic_familiarity'] = question_df.apply(get_topic_familiarity, axis=1) 
     question_df['net_familiarity'] = question_df['topic_familiarity'].apply(config.comfort_map.get)
+
+    for comfort_level in ("Uncomfortable", "Neutral", "Comfortable"):
+        question_df[comfort_level.lower()] = (question_df["topic_familiarity"] == comfort_level).astype(int)
+
+    question_df = question_df.drop(FAMILIARITY_COLS, axis=1)
 
     return question_df
 

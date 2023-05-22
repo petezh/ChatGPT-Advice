@@ -1,0 +1,48 @@
+init_choiceA: initial participant confidence in choice A
+init_choiceB: initial participant confidence in choice B
+init_choiceC: initial participant confidence in choice C
+init_choiceD: initial participant confidence in choice D
+init_time: time in seconds between loading question and submitting initial answer
+adjusted_choiceA: adjusted participant confidence in choice A (after advice)
+adjusted_choiceB: adjusted participant confidence in choice B (after advice)
+adjusted_choiceC: adjusted participant confidence in choice C (after advice)
+adjusted_choiceD: adjusted participant confidence in choice D (after advice)
+adjusted_time: time in seconds between loading advice and submitting adjusted answer
+question_num: question number, starting at 1
+question: question text
+optionA: choice A text
+optionB: choice B text
+optionC: choice C text
+optionD: choice D text
+correct_answer: correct answer letter (A, B, C, D)
+justification: justification text
+advice_answer: advised answer letter (A, B, C, D, E or None)
+topic: MMLU topic category
+participant_id: unique participant identifier
+source: participant pool
+advisor: identity of the advisor (AI chatbot, expert)
+give_justification: whether a text justification was provided
+score: participant score according to survey scoring mechanism
+major: participant major(s), comma separated
+time: time in seconds to submit the full survey
+usage_description: free text response description of how participants used ChatGPT
+heard_of: 1 if participants have heard of ChatGPT
+used: 1 if participants have used ChatGPT before
+used_in_class: 1 if participants have used ChatGPT in the classroom
+answered_mc: 1 if participants have used ChatGPT on multiple choice questions
+weight_on_advice: calculated weight on advice (see paper)
+fam_topic: familiarity topic category
+topic_familiarity: level of familiarity in text ("comfortable", "neutral", "uncomfortable")
+net_familiarity: level of familiarity as an integer (-1, 0, 1, respectively)
+uncomfortable: 1 if participants are uncomfortable in the topic area
+neutral: 1 if participants feel neutral about the topic area
+comfortable: 1 if participants are comfortable in the topic area
+usage_level: sum of `heard_of`, `used`, `used_in_class`, `answered_mc`
+question_group: `question_num` binned in groups of 5
+question_id: unique question identifier
+advice_is_correct: whether the `advice_answer` matches `correct_answer`
+last_advice_is_correct: `advice_is_correct` for the same participant's last answer
+correct_advice_count: count of correct advice for the same participant's previous questions
+incorrect_advice_count: count of incorrect advice for the same participant's previous questions
+init_advice_confidence: initial participant confidence in choice `advice_answer`
+advice_confidence: adjusted participant confidence in choice `advice_answer`
