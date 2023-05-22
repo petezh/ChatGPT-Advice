@@ -4,7 +4,7 @@ Last Updated on 05/20/2023
 
 Author: Peter Zhang
 
-[Paper link](https://drive.google.com/file/d/1bgKjRGYSnsE9tNMsUcCaZZVcRFzk49XO/view?usp=share_link)
+[Paper link](https://psyarxiv.com/b53vn)
 
 This study treats GPT models as an advisor in a [judge-advisor system](https://www.sciencedirect.com/science/article/abs/pii/S0749597800929261). We prompt InstructGPT using CoT on the [MMLU](https://arxiv.org/abs/2009.03300) benchmark and treat model output as "advice." In our lab study, 118 student participants answer 2,828 questions and recieve a chance to update their answer from the advice. We analyze factors affecting weight on advice and participant confidence in advice answers. This repository contains all of the collected data as well as code to reproduce the tables and figures in the paper.
 
